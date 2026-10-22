@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-wrap; wrap;
   gap: 20px;
-  justify-content: flex-star;
+  justify-content: flex-start;
 }
 .character-card {
   background: #fff;
@@ -23,6 +23,55 @@ body {
 width:200px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+    background-color: #00A3E0;
+    width: 100%;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+.logo-img {
+    height: 45px;
+    width: auto;
+    display: block;
+    border-radius: 6px;
+}
+.nav-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #48C728;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 40px;
 }
 .card-image {
   width: 100%;
