@@ -169,5 +169,13 @@ footer {
 .btn-secondary:hover {
     background-color: #00A3E0;
     color: #ffffff;
+} 
+.character-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.character-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
 
