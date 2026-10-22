@@ -193,11 +193,6 @@ h2 {
     margin-bottom: 25px;
 } 
 body {
-    background-color: #0f172a;
-    background-image: 
-        radial-gradient(white, rgba(255,255,255,0.3) 2px, transparent 40px),
-        radial-gradient(white, rgba(255,255,255,0.2) 1px, transparent 30px);
-    background-size: 400px 400px, 250px 250px;
-    background-position: 0 0, 50px 50px;
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #311042 100%);
+    background-attachment: fixed;
 }
-
