@@ -191,5 +191,13 @@ h2 {
     color: #2c3e50;
     font-size: 26px;
     margin-bottom: 25px;
+} 
+body {
+    background-color: #0f172a;
+    background-image: 
+        radial-gradient(white, rgba(255,255,255,0.3) 2px, transparent 40px),
+        radial-gradient(white, rgba(255,255,255,0.2) 1px, transparent 30px);
+    background-size: 400px 400px, 250px 250px;
+    background-position: 0 0, 50px 50px;
 }
 
