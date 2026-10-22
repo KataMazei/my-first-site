@@ -27,7 +27,7 @@ width:200px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.container {
+main.container {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
@@ -40,7 +40,6 @@ width:200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
 }
 .logo {
     font-weight: bold;
@@ -102,6 +101,15 @@ footer {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+}
+.main-header {
+    background-color: #00A3E0;
+    width: 100%;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
