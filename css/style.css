@@ -210,5 +210,10 @@ body {
     }
     100% {
         background-position: 0% 50%;
-    }
+    } 
+  display: flex !important;
+flex-wrap: wrap !important;
+jusify-content: space-between !important;
+gap: 20px !important;
+}
 
