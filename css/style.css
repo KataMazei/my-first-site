@@ -199,6 +199,9 @@ body {
     background: linear-gradient(120deg, #d4fc79, #96e6a1, #a1c4fd, #c2e9fb);
     background-size: 300% 300%;
     animation: gradientAnimation 12s ease infinite;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 @keyframes gradientAnimation {
@@ -218,6 +221,5 @@ gap: 20px !important;
 }
 
 .footer-con{
-  display: flex;
-  flex-direction: row;
+  margin-top: auto;
   
