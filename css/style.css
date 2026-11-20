@@ -217,3 +217,7 @@ jusify-content: space-between !important;
 gap: 20px !important;
 }
 
+.footer-con{
+  display: flex;
+  flex-direction: row;
+  
