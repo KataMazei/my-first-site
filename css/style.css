@@ -216,5 +216,8 @@ body {
     } 
 .footer-con{
   margin-top: auto;
+} 
+main {
+  flex: 1;
 }
   
