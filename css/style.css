@@ -248,6 +248,44 @@ main {
   display: block;
   font-size: 26px;
   color: #00A3E0;
+} 
+.hero,
+.character-card,
+.about,
+.stat,
+.card-image {
+    border-radius: 0;
+}
+
+.hero,
+.character-card,
+.about {
+    border: 3px solid #1a2a44;
+    box-shadow: 6px 6px 0 #1a2a44;
+}
+
+.about {
+    background: #fff;
+}
+
+.stat {
+    background: #fff;
+    border: 2px solid #1a2a44;
+}
+
+.btn-primary,
+.btn-secondary,
+.about-links a {
+    border-radius: 0;
+    border: 2px solid #1a2a44;
+    text-decoration: none;
+    padding: 10px 22px;
+    font-weight: bold;
+}
+
+.character-card:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 9px 9px 0 #1a2a44;
 }
 
   
