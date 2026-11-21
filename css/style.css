@@ -379,5 +379,15 @@ main {
 .stat-label {
     font-size: 15px;
     color: #475569;
+} 
+.stats-bar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
   
