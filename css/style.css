@@ -225,5 +225,28 @@ main {
   justify-content: center;
   gap: 15px;
   margin-top: 25px;
+} 
+.about {
+  background: #fff;
+  padding: 25px 20px;
+  border-radius: 15px;
+  margin: 40px 0;
+  text-aling: center;
 }
+.about p {
+  max-width: 650px;
+  margin: 0 auto 20px;
+}
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.stat b {
+  display: block;
+  font-size: 26px;
+  color: #00A3E0;
+}
+
   
