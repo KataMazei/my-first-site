@@ -287,21 +287,33 @@ main {
     transform: translate(-3px, -3px);
     box-shadow: 9px 9px 0 #1a2a44;
 } 
-.hero-banner{
-  height: 600px;
 
-  background-image: url("../images.jpg");
+.hero-banner {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    box-sizing: border-box;
 
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  aling-items: center;
-  padding-left: 80px;
-  position: relative;
+  
+    min-height: 85vh; 
+
+    /* Настройки фона */
+    background-image: url("../images.jpg");
+    background-size: cover;
+    background-position: center 20%; 
+    background-repeat: no-repeat;
+
+    
+    display: flex;
+    align-items: center;
+    padding: 40px 80px;
 }
 .hero-banner::before {
   content: "";
-  position: abolute;
+  position: absolute;
   inset: 0;
   background: rgba(0,0,0,0.35);
 } 
