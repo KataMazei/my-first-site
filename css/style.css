@@ -290,7 +290,7 @@ main {
 .hero-banner{
   height: 600px;
 
-  background-image: url("images/banner .jpg");
+  background-image: url("images.jpg");
 
   background-size: cover;
   background-position: center;
