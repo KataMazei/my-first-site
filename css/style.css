@@ -219,5 +219,11 @@ body {
 } 
 main {
   flex: 1;
+} 
+.about-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
 }
   
