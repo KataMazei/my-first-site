@@ -321,8 +321,10 @@ main {
     position: relative;
     z-index: 2;
     color: white;
-    max-width: 600px;
-}
+    max-width: 550px;
+  color: white;
+  } 
+
 
 .hero-content h1 {
     font-size: 64px;
