@@ -320,20 +320,31 @@ main {
 .hero-content {
     position: relative;
     z-index: 2;
-    color: white;
-    max-width: 550px;
-  color: white;
+    max-width: 500px;
+  color: #ffffff;
+  margin-left: 40px;
   } 
 
 
 .hero-content h1 {
-    font-size: 64px;
+    font-size: 54px;
+  font-weight: 900;
     margin-bottom: 15px;
+text-shadow: 
+        0 2px 4px rgba(0, 0, 0, 0.9), 
+        0 4px 12px rgba(0, 0, 0, 0.7), 
+        0 8px 24px rgba(0, 0, 0, 0.5);
 }
 
 .hero-content p {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.5;
+  margin-bottom: 25px; 
+  text-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.9),
+        0 3px 10px rgba(0, 0, 0, 0.8),
+        0 6px 18px rgba(0, 0, 0, 0.6);
+}
 } 
 .hero-buttons {
     margin-top: 25px;
