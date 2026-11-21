@@ -286,6 +286,14 @@ main {
 .character-card:hover {
     transform: translate(-3px, -3px);
     box-shadow: 9px 9px 0 #1a2a44;
-}
+} 
+.hero-banner{
+  height: 600px;
+
+  background-image: url("images/banner .jpg");
+
+  background-size: cover;
+  background-position: center;
+} 
 
   
