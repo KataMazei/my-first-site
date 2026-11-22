@@ -412,7 +412,17 @@ text-shadow:
     transform: translateY(-10px);
     box-shadow: 0 15px 25px rgba(0,0,0,0.2);
 }
-    
+.stat-card:nth-child(1){
+    border-top: 5px solid #4cc9f0;
+}
+
+.stat-card:nth-child(2){
+    border-top: 5px solid #f9c74f;
+}
+
+.stat-card:nth-child(3){
+    border-top: 5px solid #ff70a6;
+}    
   
 
   
