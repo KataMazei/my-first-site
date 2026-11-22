@@ -242,7 +242,7 @@ main {
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin-top: -80px;
+  margin-top: -110px;
   margin-bottom: 20px;
   pozition: relative;
   z-index: 10;
