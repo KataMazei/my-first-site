@@ -442,7 +442,52 @@ text-shadow:
 .zone:hover { background: #f7b6d2; }
 
 .kingdom { display: none; max-width: 800px; margin: 20px auto; }
-.kingdom:target { display: block; }
+.kingdom:target { display: block; } 
+.page-hero {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.badge-algebro {
+  display: inline-block;
+  background: #fde74c;
+  color: #1a1a1a;
+  border: 3px solid #1a1a1a;
+  border-radius: 999px;
+  padding: 4px 14px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  box-shadow: 3px 3px 0 #1a1a1a;
+  transform: rotate(-3deg);
+  margin-bottom: 8px;
+}
+
+.hero-subtitle {
+  max-width: 540px;
+  margin: 8px auto 0;
+  background: rgba(255, 253, 245, 0.92);
+  border: 3px solid #1a1a1a;
+  border-radius: 16px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  box-shadow: 4px 4px 0 #1a1a1a;
+}
+
+.quest-note {
+  max-width: 720px;
+  margin: 22px auto 0;
+  background: #fffdf5;
+  border: 3px solid #1a1a1a;
+  border-radius: 18px;
+  padding: 12px 18px;
+  box-shadow: 5px 5px 0 #1a1a1a;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
   
 
   
