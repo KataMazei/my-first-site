@@ -595,4 +595,32 @@ text-shadow:
   font-size: 14px;
   font-weight: 600;
   color: #1d2f4a;
+} 
+.hero-subtitle,
+.quest-note {
+  max-width: 560px;
+  margin: 10px auto;
+  padding: 10px 16px;
+  border-radius: 14px;
+  border: 2px solid #1c2b45;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #1c2b45;
+  box-shadow: 0 4px 10px rgba(28, 43, 69, 0.12);
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.hero-subtitle {
+  background: #fff0f6;
+}
+
+.quest-note {
+  background: #e9f9dc;
+}
+
+.hero-subtitle:hover,
+.quest-note:hover {
+  background: #fff8cc;
+  transform: translateY(-2px);
 }
